@@ -279,3 +279,15 @@ section p {
   text-justify: inter-word;
 }
 
+section ul {
+  list-style-type: disc;      /* keep bullets */
+  padding-left: 20px;         /* add space for bullet */
+  margin-top: 10px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+  white-space: nowrap;        /* prevents text wrapping */
+  overflow: hidden;           /* hides overflow if too long */
+  text-overflow: ellipsis;    /* adds ... if the text is too long */
+}
